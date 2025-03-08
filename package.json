@@ -1,0 +1,31 @@
+{
+  "name": "setapp-cli",
+  "version": "0.1.0",
+  "description": "Command-line interface for installing Setapp applications",
+  "type": "module",
+  "bin": {
+    "setapp": "./.build/bin/setapp.js"
+  },
+  "files": [
+    ".build"
+  ],
+  "scripts": {
+    "build": "bun build ./bin/setapp.ts --outdir ./.build/bin --target node",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "setapp",
+    "cli",
+    "macos"
+  ],
+  "author": "Leon Si",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.13.10",
+    "typescript": "5.8.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
