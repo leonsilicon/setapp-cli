@@ -5,10 +5,8 @@
       "name": "setapp-cli",
       "devDependencies": {
         "@types/bun": "latest",
-        "@types/node": "^22.13.10",
-      },
-      "peerDependencies": {
-        "typescript": "^5.0.0",
+        "@types/node": "latest",
+        "typescript": "latest",
       },
     },
   },

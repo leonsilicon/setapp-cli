@@ -1,6 +1,6 @@
 {
   "name": "setapp-cli",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "Command-line interface for installing Setapp applications",
   "type": "module",
   "bin": {
@@ -21,7 +21,7 @@
   "author": "Leon Si",
   "license": "MIT",
   "devDependencies": {
-    "@types/bun": "latest",
+    "@types/bun": "^1.2.4",
     "@types/node": "^22.13.10",
     "typescript": "5.8.2"
   },
